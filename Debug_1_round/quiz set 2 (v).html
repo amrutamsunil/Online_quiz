@@ -1,0 +1,576 @@
+<html>
+<head>
+    <link rel="stylesheet" href="lib/REPORTcss.css" type="text/css"/>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <script src="lib/jquery.min.js"></script>
+
+    <style>
+        .div1 {
+            width: 50%;
+            height: 100px;
+            border: 1px solid black;
+        }
+        .algn_miet{
+            margin-left: 20%;
+        }
+    </style>
+    <script>
+        function disableF5(e) { if ((e.which || e.keyCode) == 116) e.preventDefault(); };
+        $(document).on("keydown", disableF5);
+        window.onbeforeunload = function() {
+            confirm("Dude, are you sure you want to leave? Think of the kittens!");
+        }
+    </script>
+</head>
+
+<body>
+<div>
+    <table>
+        <tr>
+            <td> <img src="lib/Fotoram.io12%20(1).png" height="70px" width="130px"/> </td>
+            <th height="87" width=100%><h3>M.I.E.T ENGINEERING COLLEGE,Trichy-620007</h3>vvvvvvvv</th>
+        </tr>
+    </table>
+    <b><div id="quiz_" style=""></div></b>
+
+    <div class="div1" style="margin-left: 30%">na pathu pera adichi don aagala, na adicha pathu perum don thaa.....</div>
+    <div class="algn_miet">
+        <form method="post" id="quizs" action="index.php">
+        <pre><p>
+1) What will be the output of following?
+void main() 
+{ 
+    int m, i = 0, j = 1, k = 2; 
+    m = i++ || j++ || k++; 
+    printf("%d %d %d %d", m, i, j, k); 
+} 
+
+ </p></pre>
+            <input class="radio control-label" type="radio"  name="q1" value="1" required><label>1 1 2 3</label><br/>
+        <input class="radio control-label" type="radio"  name="q1" value="2" required><label>1 1 2 2</label><br/>
+        <input class="radio control-label" type="radio"  name="q1" value="3" required><label>0 1 2 2</label><br/>
+        <input class="radio control-label" type="radio"  name="q1" value="4" required><label>0 1 2 3</label><br/>
+        <br/><hr/>
+   <pre><p>
+2) What will be the  output of the following program?
+#include<stdio.h>
+#include <string.h>
+void main() 
+{ 
+    printf("%d %d", sizeof("program"), strlen("program")); 
+} 
+
+
+ </p></pre>
+                   <input class="radio control-label" type="radio"  name="q1" value="1" required><label>7 7</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>8 8</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>8 7</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>7 8</label><br/>
+            <br/><hr/>
+            <pre> <p>
+            
+3) Find the output of the following program ?
+#include "iostream"
+using namespace std; 
+  
+class X { 
+private: 
+  static const int a = 76; 
+public: 
+  static int getA() { return a; } 
+}; 
+  
+int main() { 
+  cout <<X::getA()<<endl; 
+  return 0; 
+}
+            </p>
+            </pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>prints 87</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>compile time error </label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label> prints 76</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>none of above </label><br/>
+            <br/><hr/>
+     <p><pre>       
+            
+ 4) #include<iostream>
+using namespace std; 
+class Point { 
+    Point() { cout << "Constructor called"; } 
+}; 
+  
+int main() 
+{ 
+   Point t1; 
+   return 0; 
+}
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>Compiler Error</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>Runtime Error </label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label> Constructor called</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>No Output </label>
+            <br/><hr/>
+            
+                 <p><pre>       
+            
+5) 
+
+# include <stdio.h>
+# define scanf  "%s MIET" 
+Void main() 
+{ 
+    printf(scanf, scanf); 
+    getchar(); 
+    return 0; 
+ }
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>Compile Error</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>%s MIET MIET</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>%s MIET</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>No Output </label>
+            <br/><hr/>
+            
+            <p><pre>       
+            
+6)
+
+#include"stdio.h"  
+int main() 
+{ 
+    float a=0.7d;  
+    if(a<0.7) 
+         printf("C"); 
+        else
+         printf("C++"); 
+    return 0; 
+} 
+
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>Compilation error</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>C++</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>C</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>No Output </label>
+            <br/><hr/>
+            
+            <p><pre>
+
+7)
+
+#include <iostream>
+using namespace std; 
+int main() 
+{ 
+    int x = 0; 
+    x = printf("Hello World"); 
+    printf(" %d", x); 
+    return 0; 
+} 
+
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>Hello World 10</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>Hello World 11</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>Hello World 12</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>Hello World 0 </label>
+            <br/><hr/>
+
+<p><pre>
+
+8)
+
+ #include<stdio.h>
+ void main() 
+{ 
+     int i = 10; 
+     static int x = i; 
+     if (x == i) 
+        printf("equal"); 
+     else if (x < i))) 
+        printf("less than"); 
+     else
+        printf("greater than"); 
+ } 
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>equal</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>greater than</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>less than</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>compiler error </label>
+            <br/><hr/>
+            
+<p><pre>
+9)
+
+#include<stdio.h>
+void main() 
+{ 
+    int colour = 2; 
+    switch (colour) { 
+    case 0: 
+        printf("Black"); 
+    case 1: 
+        printf("Red"); 
+    case 2: 
+        printf("Aqua"); 
+    case 3: 
+        printf("Green"); 
+    default: 
+        printf("Other"); 
+    } 
+} 
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>Aqua</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>AquaGreenOther</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>AquaGreen</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>Red </label>
+            <br/><hr/>
+            
+            
+<p><pre>
+ 10)What will be the output of the program if the size of pointer is 4-bytes?
+#include<stdio.h>
+int main()
+{
+    printf("%d, %d\n", sizeof(NULL), sizeof(""));
+    return 0;
+}
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>2,1`</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>2,2</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>4,1</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>4,2</label>
+            <br/><hr/>
+            
+            <p><pre>
+11)What will be the output of the program ?
+#include<stdio.h>
+
+int main()
+{
+    void *vp;
+    char ch=74, *cp="JACK";
+    int j=65;
+    vp=&ch;
+    printf("%c", *(char*)vp);
+    vp=&j;
+    printf("%c", *(int*)vp);
+    vp=cp;
+    printf("%s", (char*)vp+2);
+    return 0;
+}
+
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>JCK</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>J65K</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>JAK</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>JACK37</label>
+            <br/><hr/>
+            
+            <p><pre>
+12)Which of the following statement is correct about the program?
+#include<stdio.h>
+
+int main()
+{
+    FILE *fp;
+    char ch;
+    int i=1;
+    fp = fopen("myfile.c", "r");
+    while((ch=getc(fp))!=EOF)
+    {
+        if(ch == '\n')
+            i++;
+    }
+    fclose(fp);
+    return 0;
+}
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>The code counts number of characters in the file</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>The code counts number of words in the file</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>The code counts number of blank lines in the file</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>The code counts number of lines in the file</label>
+            <br/><hr/>
+            
+            <p><pre>
+13)Find Error/Output in follwing code:
+
+int main()  
+
+{
+
+  printf("%d%d%d", sizeof(3.14f), sizeof(3.14l));
+
+}
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>4160</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>844</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>3284</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>None of the above</label>
+            <br/><hr/>
+            
+            <p><pre>
+15) What is the output of this program?
+    #include <iostream>
+    using namespace std;
+    void addprint()
+    {
+        static int s = 1;
+        s++;
+        cout << s;
+    }
+    int main()
+    {
+        addprint();
+        addprint();
+        addprint();
+        return 0;
+    }
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>234</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>111</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>123</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>235</label>
+            <br/><hr/>
+            
+            <p><pre>
+16) What is the output of this program?
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int a = 10;
+        if (a < 10) {
+            for (i = 0; i < 10; i++)
+               cout << i;
+        }
+        else {
+            cout << i;
+        }
+        return 0;
+    }
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>0123456789</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>123456789</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>0</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>Error</label>
+            <br/><hr/>
+            
+            <p><pre>
+17) What is the output of this program?
+    #include <stdio.h>
+    #include<iostream>
+    using namespace std;
+    int main()
+    {
+        int a = 21;
+        int c ;
+        c = a++;
+        cout << c;  
+        return 0;
+  	  }
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>21</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>22</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>23</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>20</label>
+            <br/><hr/>
+            
+            
+            <p><pre>
+18) What is the output of this program?
+    #include <stdio.h>
+    #include<iostream>
+    using namespace std;
+    int main()
+    {
+        int x = 5, y = 5, z;
+        x = ++x; y = --y;
+        z = x++ + y--;
+        cout << z;
+        return 0;
+    }
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>10</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>11</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>9</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>12</label>
+            <br/><hr/>
+            
+            
+            <p><pre>
+19)  What is the output of this program?
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        void a = 10, b = 10;
+        int c;
+        c = a + b;
+        cout << c;
+        return 0;
+    }
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>20</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>Compile Time Error</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>Run Time Error</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>None Of Them Mentioned</label>
+            <br/><hr/>
+            
+            
+            <p><pre>
+20. What is the output of this program?
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        float num1 = 1.1;
+        double num2 = 1.1;
+        if (num1 == num2)
+           cout << "stanford";
+        else
+           cout << "harvard";
+        return 0;
+    }
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>Harvard</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>Stanford</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>compile time error</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>run time error</label>
+            <br/><hr/>
+            
+            
+            <p><pre>
+21) What is the output of this program?
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        float f1 = 0.5;
+        double f2 = 0.5;
+        if (f1 == 0.5f)
+            cout << "equal";
+        else
+            cout << "not equal";
+        return 0;
+    }
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>Equal</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>Not Equal</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>Compile time error</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>Run time error</label>
+            <br/><hr/>
+            
+            
+            <p><pre>
+22) What is the output of this program?
+    #include <iostream>
+    #include <string>
+    using namespace std;
+    int main ()
+    {
+        string name ("Jobs");
+        string family ("Steve");
+        name += " Apple ";
+        name += family;
+        name += '\n';
+        cout << name;
+        return 0;
+  	  }
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>Steve Jobs</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>Apple</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>Jobs Apple Steve</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>None of the mentioned</label>
+            <br/><hr/>
+            
+            
+            <p><pre>
+23) What is the output of this program?
+    #include <iostream>
+    using namespace std;
+    void duplicate (int& a, int& b, int& c)
+    {
+        a *= 2;
+        b *= 2;
+        c *= 2;
+    }
+    int main ()
+    {
+        int x = 1, y = 3, z = 7;
+        duplicate (x, y, z);
+        cout << x << y << z;
+        return 0;
+    }
+
+
+</p></pre>
+
+             <input class="radio control-label" type="radio"  name="q1" value="1" required><label>1468</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="2" required><label>2812</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="3" required><label>2614</label><br/>
+            <input class="radio control-label" type="radio"  name="q1" value="4" required><label>None of the mentioned</label>
+            <br/><hr/>
+            
+            <center><input type="submit" name="sub" id="s" value="SUBMIT" class="btn-primary"></center>
+        </form>
+</div>
+</body>
+
+    <script type='text/javascript'>
+
+    var total_seconds = 60 * 10;
+    var c_minutes = parseInt(total_seconds / 60);
+    var c_seconds = parseInt(total_seconds % 60);
+
+    checkTime();
+    function checkTime() {
+        document.getElementById('quiz_').innerHTML = 'Time Left:' + c_minutes + 'min' + c_seconds + 'sec';
+        if (total_seconds <= 0) {
+            $("input").removeAttr("required");
+            document.getElementById('quizs').submit();
+        } else {
+            total_seconds = total_seconds - 1;
+            c_minutes = parseInt(total_seconds / 60);
+            c_seconds = parseInt(total_seconds % 60);
+            setTimeout("checkTime()", 1000);
+        }
+    }
+    $(document).bind("keydown", disableF5);
+</script>
+
+</html>
